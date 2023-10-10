@@ -33,6 +33,7 @@ BuildRequires:  pkgconfig(speexdsp)
 BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(rnnoise)
 BuildRequires:  pkgconfig(tbb)
+BuildRequires:  pkgconfig(nlohmann_json)
 
 BuildRequires:  libzita-convolver-devel
 
