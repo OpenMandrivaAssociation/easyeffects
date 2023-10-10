@@ -34,6 +34,7 @@ BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(rnnoise)
 BuildRequires:  pkgconfig(tbb)
 BuildRequires:  pkgconfig(nlohmann_json)
+BuildRequires:  pkgconfig(fmt)
 
 BuildRequires:  libzita-convolver-devel
 
