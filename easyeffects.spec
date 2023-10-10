@@ -28,6 +28,8 @@ BuildRequires:  pkgconfig(sndfile)
 BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(rnnoise)
 
+BuildRequires:  libzita-convolver-devel
+
 Requires:       gstreamer1.0-plugins-bad
 Requires:       gstreamer1.0-plugins-good
 Requires:       swh-plugins
