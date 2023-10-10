@@ -21,12 +21,14 @@ BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
 BuildRequires:  pkgconfig(libbs2b)
 BuildRequires:  pkgconfig(libebur128)
+BuildRequires:  pkgconfig(libportal-gtk4)
 BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(lilv-0)
 BuildRequires:  pkgconfig(sigc++-2.0)
 BuildRequires:  pkgconfig(sndfile)
 BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(rnnoise)
+BuildRequires:  pkgconfig(tbb)
 
 BuildRequires:  libzita-convolver-devel
 
