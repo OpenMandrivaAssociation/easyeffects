@@ -1,11 +1,11 @@
-Name:           pulseeffects
-Version:        4.8.4
-Release:        3
-Summary:        Audio equalizer, filters and effects for Pulseaudio applications
+Name:           easyeffects
+Version:        7.1.0
+Release:        1
+Summary:        Audio equalizer, filters and effects for PipeWire applications
 License:        GPLv3
 Group:          Sound/Mixers
-Url:            https://github.com/wwmm/pulseeffects
-Source0:        https://github.com/wwmm/pulseeffects/archive/v%{version}/%{name}-%{version}.tar.gz
+Url:            https://github.com/wwmm/easyeffects
+Source0:        https://github.com/wwmm/easyeffects/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  appstream-util
 BuildRequires:  boost-devel
@@ -25,6 +25,7 @@ BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(lilv-0)
 BuildRequires:  pkgconfig(sigc++-2.0)
 BuildRequires:  pkgconfig(sndfile)
+BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(rnnoise)
 
 Requires:       gstreamer1.0-plugins-bad
@@ -45,8 +46,9 @@ Recommends:     zam-plugins
 #Recommends: RNNoise
 
 %description
+This application was formerly known as PulseEffects, but it was renamed to Easy Effects after it started to use GTK4 and GStreamer usage was replaced by native PipeWire filters.
 Limiters, compressor, reverberation, high-pass filter, low pass filter,
-equalizer and auto volume effects for PulseAudio applications.
+equalizer and auto volume effects for PipeWire applications.
 
 %prep
 %autosetup -p1
