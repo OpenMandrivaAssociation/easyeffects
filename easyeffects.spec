@@ -85,7 +85,8 @@ desktop-file-install %{buildroot}%{_datadir}/applications/com.github.wwmm.%{name
     --dir=%{buildroot}%{_datadir}/applications
 
 %find_lang %{name}
-
+%find_lang %{name}-news
+cat %{name}-news.lang >> %{name}.lang
 
 %files -f easyeffects.lang
 %{_bindir}/easyeffects
