@@ -85,3 +85,14 @@ desktop-file-install %{buildroot}%{_datadir}/applications/com.github.wwmm.%{name
     --dir=%{buildroot}%{_datadir}/applications
 
 %find_lang %{name}
+
+
+%files -f easyeffects.lang
+%{_bindir}/easyeffects
+%{_datadir}/applications/com.github.wwmm.easyeffects.desktop
+%{_datadir}/dbus-1/services/com.github.wwmm.easyeffects.service
+%{_datadir}/glib-2.0/schemas/com.github.wwmm.easyeffects.*
+%{_datadir}/help/C/easyeffects/
+%{_datadir}/metainfo/com.github.wwmm.easyeffects.metainfo.xml
+%{_datadir}/icons/hicolor/scalable/apps/com.github.wwmm.easyeffects.svg
+%{_datadir}/icons/hicolor/symbolic/apps/com.github.wwmm.easyeffects-symbolic.svg
