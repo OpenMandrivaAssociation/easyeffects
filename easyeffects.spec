@@ -14,11 +14,12 @@ BuildRequires:  itstool
 BuildRequires:  libxml2-utils
 BuildRequires:  meson
 BuildRequires:  pkgconfig(fftw3)
-BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gtkmm-3.0)
 BuildRequires:  pkgconfig(glibmm-2.4)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(libbs2b)
 BuildRequires:  pkgconfig(libebur128)
 BuildRequires:  pkgconfig(libportal-gtk4)
