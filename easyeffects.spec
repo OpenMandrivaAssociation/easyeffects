@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 
 Name:           easyeffects
-Version:        7.1.1
+Version:        7.1.3
 Release:        1
 Summary:        Audio equalizer, filters and effects for PipeWire applications
 License:        GPLv3
