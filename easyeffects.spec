@@ -15,6 +15,7 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  itstool
 BuildRequires:  libxml2-utils
 BuildRequires:  meson
+BuildRequires:  gettext
 BuildRequires:  ladspa-devel
 BuildRequires:  pkgconfig(fftw3)
 BuildRequires:  pkgconfig(gtk4)
