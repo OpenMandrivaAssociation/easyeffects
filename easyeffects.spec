@@ -41,6 +41,7 @@ BuildRequires:	pkgconfig(gstreamer-1.0)
 BuildRequires:	pkgconfig(gstreamer-plugins-bad-1.0)
 BuildRequires:	pkgconfig(libbs2b)
 BuildRequires:	pkgconfig(libebur128) >= 1.2.6
+BuildRequires:	pkgconfig(libmysofa)
 BuildRequires:	pkgconfig(libpipewire-0.3) >= 1.0.6
 BuildRequires:	pkgconfig(libportal-qt6)
 BuildRequires:	pkgconfig(lilv-0)
