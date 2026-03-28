@@ -3,7 +3,7 @@
 Summary:	Audio equalizer, filters and effects for PipeWire applications
 Name:	easyeffects
 Version:	8.1.6
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:	Sound/Mixers
 Url:	https://github.com/wwmm/easyeffects
@@ -73,6 +73,8 @@ BuildRequires:	pkgconfig(xkbcommon)
 Requires:	gstreamer1.0-plugins-bad
 Requires:	gstreamer1.0-plugins-good
 Requires:	%{_lib}rnnoise0
+# Needed but don't get required
+Requires:	%{_lib}Qt6Graphs
 Requires:	lsp-plugins
 Requires:	swh-plugins
 # Recommended because optional and in Extra repo
