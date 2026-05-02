@@ -2,8 +2,8 @@
 
 Summary:	Audio equalizer, filters and effects for PipeWire applications
 Name:	easyeffects
-Version:	8.1.6
-Release:	2
+Version:	8.2.1
+Release:	1
 License:	GPLv3+
 Group:	Sound/Mixers
 Url:	https://github.com/wwmm/easyeffects
@@ -56,6 +56,7 @@ BuildRequires:	pkgconfig(Qt6Qml)
 BuildRequires:	pkgconfig(Qt6QmlCompiler)
 BuildRequires:	pkgconfig(Qt6Quick)
 BuildRequires:	pkgconfig(Qt6QuickControls2)
+BuildRequires:	pkgconfig(Qt6QuickShapes)
 BuildRequires:	pkgconfig(Qt6WebEngineCore)
 BuildRequires:	pkgconfig(Qt6WebEngineQuick)
 BuildRequires:	pkgconfig(Qt6WebEngineWidgets)
