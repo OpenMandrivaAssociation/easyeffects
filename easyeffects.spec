@@ -2,7 +2,7 @@
 
 Summary:	Audio equalizer, filters and effects for PipeWire applications
 Name:	easyeffects
-Version:	8.2.1
+Version:	8.2.2
 Release:	1
 License:	GPLv3+
 Group:	Sound/Mixers
@@ -33,6 +33,7 @@ BuildRequires:	boost-devel
 BuildRequires:	gomp-devel
 BuildRequires:	ladspa-devel
 BuildRequires:	libzita-convolver-devel
+BuildRequires:cmake(Qt6QuickShapesPrivate)
 BuildRequires:	pkgconfig(fftw3)
 BuildRequires:	pkgconfig(fmt)
 BuildRequires:	pkgconfig(gl)
@@ -56,7 +57,7 @@ BuildRequires:	pkgconfig(Qt6Qml)
 BuildRequires:	pkgconfig(Qt6QmlCompiler)
 BuildRequires:	pkgconfig(Qt6Quick)
 BuildRequires:	pkgconfig(Qt6QuickControls2)
-BuildRequires:	pkgconfig(Qt6QuickShapes)
+BuildRequires:	pkgconfig(Qt63DQuickRender)
 BuildRequires:	pkgconfig(Qt6WebEngineCore)
 BuildRequires:	pkgconfig(Qt6WebEngineQuick)
 BuildRequires:	pkgconfig(Qt6WebEngineWidgets)
@@ -106,6 +107,7 @@ combination of Qt, QML and KDE/Kirigami frameworks.
 %{_datadir}/metainfo/com.github.wwmm.%{name}.metainfo.xml
 %{_datadir}/icons/hicolor/scalable/apps/com.github.wwmm.%{name}.svg
 %{_datadir}/icons/hicolor/scalable/apps/com.github.wwmm.%{name}-symbolic.svg
+%{_datadir}/icons/hicolor/scalable/apps/com.github.wwmm.%{name}-off-symbolic.svg
 
 #-----------------------------------------------------------------------------
 
